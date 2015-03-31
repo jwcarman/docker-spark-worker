@@ -15,4 +15,3 @@ RUN curl -SL "$SPARK_TGZ_URL" -o spark.tar.gz \
 
 EXPOSE 8081
 ENTRYPOINT ["./bin/spark-class", "org.apache.spark.deploy.worker.Worker"]
-
