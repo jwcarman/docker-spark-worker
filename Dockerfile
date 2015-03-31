@@ -1,4 +1,4 @@
-M java:8-jre
+FROM java:8-jre
 
 ENV SPARK_HOME /usr/local/spark
 ENV PATH $SPARK_HOME/bin:$PATH
